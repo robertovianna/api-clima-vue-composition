@@ -1,15 +1,7 @@
 <template>
-     <div class="q-pa-md">
-    <q-btn-toggle
-      v-model="model"
-      toggle-color="primary"
-      :options="[
-        {label: 'One', value: 'one'},
-        {label: 'Two', value: 'two'},
-        {label: 'Three', value: 'three'}
-      ]"
-    />
-  </div>
+    <q-page class="flex flex-center">
+      <p class="text-h2"> Index</p>
+    </q-page>
 </template>
 
 <script>
